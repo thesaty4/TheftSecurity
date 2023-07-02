@@ -2,6 +2,26 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "admin": [
+        "dist/admin"
+      ],
+      "auth": [
+        "dist/auth"
+      ],
+      "material": [
+        "dist/material"
+      ],
+      "theme": [
+        "dist/theme"
+      ],
+      "utils": [
+        "dist/utils"
+      ],
+      "web-user": [
+        "dist/web-user"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
