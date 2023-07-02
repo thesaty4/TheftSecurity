@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
     this.renderer.setAttribute(
       script,
       'src',
-      'https://maps.googleapis.com/maps/api/js?key=AIzaSyDdD53FE2Hj5gSf6tTWlRbmJnpCxe7xHjU&callback=initMap'
+      'https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY&callback=initMap'
     );
     this.renderer.appendChild(this.elementRef.nativeElement, script);
   }
